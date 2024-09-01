@@ -71,7 +71,7 @@ function App() {
       </form>
 
       <div className='w-full h-12 text-center text-white'>
-        {filteredItems.length?(filteredItems):(<p className='text-black bg-white'>No todo found</p>)}
+        {filteredItems.length?(filteredItems):(<p className='text-black bg-white'>Alışveriş listesi boş</p>)}
       </div>
     </>
   );
